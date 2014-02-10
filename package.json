@@ -1,0 +1,47 @@
+{
+  "name": "aktualnivozy-api",
+  "version": "0.1.0",
+  "description": "Node.js promise based wrapper over AktualniVozy API.",
+  "keywords": [
+    "aktualnivozy",
+    "api",
+    "wrapper",
+    "async",
+    "promise"
+  ],
+  "maintainers": [
+    {
+      "name": "Ondřej Plšek",
+      "email": "plsek.o@gmail.com",
+      "url": "http://ondraplsek.cz/"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/ondrs/node-aktualnivozy-api/blob/master/LICENSE.md"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ondrs/node-aktualnivozy-api.git"
+  },
+  "dependencies": {
+    "krawler": "~0.2.0",
+    "q": "~1.0.0",
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "chai": "~1.9.0"
+  },
+  "scripts": {
+    "test": "mocha test/index"
+  },
+  "engines": [
+    "node >=0.8.x"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "./lib/index"
+}
