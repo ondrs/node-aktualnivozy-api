@@ -25,7 +25,7 @@ var api = new AktualnivozyApi(login, password);
 ```javascript
 return api
   .then(function() {
-    return api.listOfCars()
+    return api.getAdvertisements()
   })
   .then(function(vehicles) {
 
