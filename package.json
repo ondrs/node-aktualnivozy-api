@@ -27,7 +27,7 @@
     "url": "https://github.com/ondrs/node-aktualnivozy-api.git"
   },
   "dependencies": {
-    "krawler": "~0.2.1",
+    "krawler": "~0.2.2",
     "q": "~1.0.0",
     "underscore": "~1.6.0"
   },
