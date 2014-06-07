@@ -1,6 +1,6 @@
 {
   "name": "aktualnivozy-api",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Node.js promise based wrapper over AktualniVozy API.",
   "keywords": [
     "aktualnivozy",
@@ -27,8 +27,8 @@
     "url": "https://github.com/ondrs/node-aktualnivozy-api.git"
   },
   "dependencies": {
-    "krawler": "~0.2.2",
-    "q": "~1.0.0",
+    "krawler": "~0.3.0",
+    "q": "~1.0.1",
     "underscore": "~1.6.0"
   },
   "devDependencies": {
